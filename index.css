@@ -1,0 +1,50 @@
+.congrats-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  min-height: 100vh;
+}
+.congrats-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cffafe;
+  padding: 50px;
+  width: 50%;
+  max-width: 450px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 28px;
+  font-family: "Roboto";
+}
+
+.name {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.description {
+  text-align: center;
+  color: #1e293b;
+  font-size: 14px;
+  font-family: "Roboto";
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 36px;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
